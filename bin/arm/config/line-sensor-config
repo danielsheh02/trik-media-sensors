@@ -1,0 +1,5 @@
+detect_hue_to = 359
+detect_sat_from = 0
+detect_sat_to = 100
+detect_val_from = 0
+detect_val_to = 30

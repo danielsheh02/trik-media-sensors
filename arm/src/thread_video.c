@@ -177,6 +177,7 @@ int threadVideo(Runtime* runtime) {
       goto exit_fb_stop;
     }
   }
+  printf("Exit video thread loop\n");
 
 exit_fb_stop:
   if ((res = fbOutputStop(fb)) != 0)

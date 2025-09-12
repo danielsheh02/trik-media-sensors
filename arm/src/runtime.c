@@ -15,7 +15,7 @@
 static const RuntimeConfig s_runtimeConfig = { .m_verbose = false,
   .m_v4l2Config = { "/dev/video2", 320, 240, V4L2_PIX_FMT_YUV422P },
   .m_fbConfig = { "/dev/fb0" },
-  .m_rcConfig = { "/run/line-sensor.in.fifo", "/run/line-sensor.out.fifo", TRIK_CV_ALGORITHM_EDGE_LINE_SENSOR, true } };
+  .m_rcConfig = { "/run/line-sensor.in.fifo", "/run/line-sensor.out.fifo", TRIK_CV_ALGORITHM_LINE_SENSOR, true } };
 
 void runtimeReset(Runtime* _runtime) {
   memset(_runtime, 0, sizeof(*_runtime));
